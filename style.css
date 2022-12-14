@@ -1,6 +1,17 @@
 @font-face {
-    font-family: Lato;
-    src: url(/assets/fonts/Lato/);
+    font-family: 'Lato';
+    src: url("/assets/fonts/Lato/Lato-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("/assets/fonts/Lato/Lato-Regular.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("/assets/fonts/Lato/Lato-Italic.ttf");
+    font-weight: 400;
 }
 * {
     box-sizing: border-box;
@@ -19,4 +30,14 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #595959;
 }
