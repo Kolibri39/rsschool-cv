@@ -13,6 +13,11 @@
     src: url("./assets/fonts/Lato/Lato-Italic.ttf");
     font-weight: 300;
 }
+@font-face {
+    font-family: 'Corinthia';
+    src: url("./assets/fonts/Corinthia/Corinthia-Regular.ttf");
+    font-weight: 400;
+}
 * {
     box-sizing: border-box;
 }
@@ -66,14 +71,13 @@ a:hover {
     margin: 0;
 }
 .header__container {
-    display: grid;
+    display: flex;
+    gap: 10px;
     height: 100px;
     width: 100%;
     border: 1px dashed black;
 }
-.main {
-    
-}
+.main {}
 .main__columns {
     display: flex;
     flex-direction: row;
@@ -84,13 +88,46 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin: 20px 30px
-
+    margin: 130px 30px 20px;
 }
 .main__columns_right {
     width: 301px;
     margin: 20px 30px;
     border: 1px dashed black;
+}
+.photo {
+    position: relative;
+    width: 161px;
+    height: 163px;
+    left: 20px;
+    top: 20px;
+    width: 101px;
+    margin: 10px 30px;
+    border: 1px dashed black;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.avatar__picture {
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    padding: 5px;
+    margin: 7px;
+}
+.avatar__name {
+    font-family: 'Corinthia';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+}
+.name {
+    margin-left: 10px;
 }
 .name__position {
     font-family: 'Lato';
