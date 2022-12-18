@@ -1,11 +1,211 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Базовый шаблон</title>
-        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Olga Dobrokhotova</title>
     </head>
-    <body class="body">
+    <body>
+        <span>
+            <a name="top"></a>
+        </span>
+        <div class="container">
+            <header class="header">
+                <div class="header__container">
+                    <section class="photo">
+                        <div class="photo__container">
+                            <div class="avatar">
+                                <div><img class="avatar__picture" src="./assets/img/avatar.jpg" alt="Olga"></div>
+                                <div class="avatar__name">Olga</div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="name">
+                        <div class="name__name">
+                            <h1 class="h1">Olga Dobrokhotova</h1>
+                        </div>
+                        <div class="name__position">Frontend Developer</div>
+                    </section>
+                </div>
+            </header>
+            <main class="main">
+                <nav class="nav">
+                    <a href="#contacts">Contacts</a>
+                    >
+                    <a href="#skills">Skills&Tools</a>
+                    >
+                    <a href="#education">Education</a>
+                    >
+                    <a href="#languages">Languages</a>
+                    >
+                    <a href="#about-me">About me</a>
+                    >
+                    <a href="#exp">Experience</a>
+                    >
+                    <a href="#code">Code</a>
+                </nav>
+                <div class="main__columns">
+                    <div class="main__columns_left">
+                        <section class="contacts section">
+                            <h2 class="h2">
+                                <a name="contacts">Contact info</a>
+                            </h2>
+                            <ul class="contacts__list">
+                                <li class="contacts__list_li">
+                                    <div class="contacts__icon"><img src="./assets/img/email.svg"></div>
+                                    <div>
+                                        <a href="mailto:ms.dolga4649@gmail.com">ms.dolga4649@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="li">
+                                    <b>Telegram:</b>
+                                    @Freesia39</li>
+                                <li class="li">
+                                    <a href="https://github.com/Kolibri39/">GitHub</a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="skills-tools section">
+                            <h2 class="h2">
+                                <a name="skills">Skills</a>
+                            </h2>
+                            <div class="skills">
+                                <div class="skills__list">
+                                    <div class="skills__list_left">
+                                        <ul class="ul">
+                                            <li class="li">HTML, CSS</li>
+                                            <li class="li">JavaScript Basics</li>
+                                            <li class="li">React</li>
+                                        </ul>
+                                    </div>
+                                    <div class="skills__list_right">
+                                        <ul class="ul">
+                                            <li class="li__value">
+                                                <div class="value"><img src="./assets/img/value-90.png" alt="value 90%"></div>
+                                            </li>
+                                            <li class="li__value">
+                                                <div class="value"><img src="./assets/img/value-30.png" alt="value 30%"></div>
+                                            </li>
+                                            <li class="li__value">
+                                                <div class="value"><img src="./assets/img/value-10.png" alt="value 10%"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="skills-tools section">
+                            <h2 class="h2">Tools</h2>
+                            <div class="tools">
+                                <div class="tools__list">
+                                    <div class="tools__list_left">
+                                        <ul class="ul">
+                                            <li class="li">Git</li>
+                                            <li class="li">VS Code</li>
+                                            <li class="li">Adobe Photoshop</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="education section">
+                            <h2 class="h2">
+                                <a name="education">Education</a>
+                            </h2>
+                            <p>
+                                <b>SPbSUE "Managment"</b>
+                                (2010-2014)<br>
+                                <b>SPbSUE "Logistics"</b>s· (2014-2016)</p>
+                            <h2 class="h2">Courses</h2>
+                            <p>
+                                <b>Online University of QA "POINT"</b>
+                                (2020)<br>
+                                <b>Innopolis "Frontend Development"</b>
+                                (2022)<br>
+                                <b>RS School Course «JavaScript/Front-end. Stage 0»</b>
+                                (in progress)</p>
+                            <h2 class="h2">
+                                <a name="languages">Languages</a>
+                            </h2>
+                            <p>
+                                <b>Russian</b>
+                                — native;<br>
+                                <b>English</b>
+                                — Upper-Intermediate;<br>
+                                <b>French</b>
+                                — Basic;<br>
+                                <b>Japanese</b>
+                                — JLPT3-4;</p>
+                        </section>
+                    </div>
+                    <div class="main__columns_right">
+                        <section class="about-me section">
+                            <h2 class="h2">
+                                <a name="about-me">About me</a>
+                            </h2>
+                            <p>I work in IT since 2016. I started in Client Support department where I
+                                helped clients and worked in CMS such as: Wordpress, Bitrix etc. In 2020 I
+                                decided that I need further development, so I successfully graduated from the
+                                First Online University of Quality Assurance "Point". Since then I combined my
+                                support job with some testing projects. I worked in projects: Petstory, Casio,
+                                McDonalds, Sisley etc.
+                                <br>Now I am learning Frontender skills and I am enjoying it.<br>My hobbies are:
+                                    music, animals welfare, nature, social dansing, handmade and social activities.</p>
+
+                        </section>
+                        <section class="experience section">
+                            <h2 class="h2">
+                                <a name="exp">Experience</a>
+                            </h2>
+                            <p>
+                                <b>"ADV" Ltd</b>
+                                Support manager 2016—2020<br>
+                                <b>"Webit" Ltd</b>
+                                Support and QA 2020—2021<br>
+                                <b>"Agima</b>
+                                Interactive" Ltd Part-time Support</p>
+                        </section>
+                        <section class="code-example">
+                            <h2 class="h2">
+                                <a name="code">Code Example</a>
+                            </h2>
+                            <code>let cart = [4884];<br>
+                                let id = 0;<br>
+                                function addToCart(id) {<br>
+                                cart = new Set(cart);<br>
+                                cart.add(id);<br>
+                                console.log(cart);<br>
+                                }<br>
+                                addToCart(3456);<br>
+                                function removeFromCart(id) {<br>
+                                if (cart.has(id) === true) {<br>
+                                cart.delete(id);<br>
+                                }<br>
+                                console.log(cart);<br>
+                                }<br>
+                                removeFromCart(3456);</code>
+                            <p class="p">
+                                <a href="https://Kolibri39.github.io/rsschool-cv/">My CV</a>
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="school-logo">
+                        <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" alt="RSSchool" height="30"></a><br>
+                        <a href="https://github.com/Kolibri39/" target="_blank">
+                            <span>
+                                by Olga Dobrokhotova (2022)</span></a>
+                    </div>
+                    <div class="footer__up">
+                        <span>
+                            <a href="#top">Наверх</a></span></div>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
