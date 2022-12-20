@@ -68,8 +68,7 @@ a:hover {
     line-height: 17px;
     text-transform: uppercase;
     color: #595959;
-    margin: 0;
-    margin-bottom: 14px;
+    margin: 0 0 14px;
 }
 .header__container {
     display: flex;
@@ -82,6 +81,14 @@ a:hover {
     position: relative;
     left: 30px;
     top: 95px;
+}
+.nav__list {
+    margin: 0;
+    padding: 3px;
+}
+.nav__list li {
+    display: inline;
+    list-style-type: none;
 }
 .main {}
 .main__columns {
@@ -170,7 +177,7 @@ a:hover {
 .value {
     height: 15px;
     display: flex;
-  align-items: center;   
+    align-items: center;
 }
 .about-me {
     border-bottom: 1px solid #E7E7E7;
@@ -182,7 +189,7 @@ a:hover {
 }
 .li {
     list-style: none;
-    
+
 }
 .li:before {
     content: '';
@@ -196,7 +203,7 @@ a:hover {
 }
 .footer {
     background-color: #E7E7E7;
-    
+
 }
 .footer__container {
     display: flex;

@@ -8,20 +8,18 @@
         <title>Olga Dobrokhotova</title>
     </head>
     <body>
-        <span>
-            <a name="top"></a>
-        </span>
+        <span id="top"></span>
         <div class="container">
             <header class="header">
                 <div class="header__container">
-                    <section class="photo">
+                    <div class="photo">
                         <div class="photo__container">
                             <div class="avatar">
                                 <div><img class="avatar__picture" src="./assets/img/avatar.jpg" alt="Olga"></div>
                                 <div class="avatar__name">Olga</div>
                             </div>
                         </div>
-                    </section>
+                    </div>
                     <section class="name">
                         <div class="name__name">
                             <h1 class="h1">Olga Dobrokhotova</h1>
@@ -32,29 +30,37 @@
             </header>
             <main class="main">
                 <nav class="nav">
-                    <a href="#contacts">Contacts</a>
-                    >
-                    <a href="#skills">Skills&Tools</a>
-                    >
-                    <a href="#education">Education</a>
-                    >
-                    <a href="#languages">Languages</a>
-                    >
-                    <a href="#about-me">About me</a>
-                    >
-                    <a href="#exp">Experience</a>
-                    >
-                    <a href="#code">Code</a>
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                            ></li>
+                        <li>
+                            <a href="#skills">Skills&Tools</a>
+                            ></li>
+                        <li>
+                            <a href="#education">Education</a>
+                            ></li>
+                        <li>
+                            <a href="#languages">Languages</a>
+                            ></li>
+                        <li>
+                            <a href="#about-me">About me</a>
+                            ></li>
+                        <li>
+                            <a href="#exp">Experience</a>
+                            ></li>
+                        <li>
+                            <a href="#code">Code</a>
+                        </li>
+                    </ul>
                 </nav>
                 <div class="main__columns">
                     <div class="main__columns_left">
                         <section class="contacts section">
-                            <h2 class="h2">
-                                <a name="contacts">Contact info</a>
-                            </h2>
+                            <h2 class="h2" id="contacts">Contact info</h2>
                             <ul class="contacts__list">
                                 <li class="contacts__list_li">
-                                    <div class="contacts__icon"><img src="./assets/img/email.svg"></div>
+                                    <div class="contacts__icon"><img src="./assets/img/email.svg" alt="email"></div>
                                     <div>
                                         <a href="mailto:ms.dolga4649@gmail.com">ms.dolga4649@gmail.com</a>
                                     </div>
@@ -68,9 +74,8 @@
                             </ul>
                         </section>
                         <section class="skills-tools section">
-                            <h2 class="h2">
-                                <a name="skills">Skills</a>
-                            </h2>
+                            <h2 class="h2" id="skills">
+                                Skills</h2>
                             <div class="skills">
                                 <div class="skills__list">
                                     <div class="skills__list_left">
@@ -111,13 +116,12 @@
                             </div>
                         </section>
                         <section class="education section">
-                            <h2 class="h2">
-                                <a name="education">Education</a>
-                            </h2>
+                            <h2 class="h2" id="education">Education</h2>
                             <p>
                                 <b>SPbSUE "Managment"</b>
                                 (2010-2014)<br>
-                                <b>SPbSUE "Logistics"</b> (2014-2016)</p>
+                                <b>SPbSUE "Logistics"</b>
+                                (2014-2016)</p>
                             <h2 class="h2">Courses</h2>
                             <p>
                                 <b>Online University of QA "POINT"</b>
@@ -126,9 +130,7 @@
                                 (2022)<br>
                                 <b>RS School Course «JavaScript/Front-end. Stage 0»</b>
                                 (in progress)</p>
-                            <h2 class="h2">
-                                <a name="languages">Languages</a>
-                            </h2>
+                            <h2 class="h2" id="languages">Languages</h2>
                             <p>
                                 <b>Russian</b>
                                 — native;<br>
@@ -142,9 +144,7 @@
                     </div>
                     <div class="main__columns_right">
                         <section class="about-me section">
-                            <h2 class="h2">
-                                <a name="about-me">About me</a>
-                            </h2>
+                            <h2 class="h2" id="about-me">About me</h2>
                             <p>I work in IT since 2016. I started in Client Support department where I
                                 helped clients and worked in CMS such as: Wordpress, Bitrix etc. In 2020 I
                                 decided that I need further development, so I successfully graduated from the
@@ -156,9 +156,7 @@
 
                         </section>
                         <section class="experience section">
-                            <h2 class="h2">
-                                <a name="exp">Experience</a>
-                            </h2>
+                            <h2 class="h2" id="exp">Experience</h2>
                             <p>
                                 <b>"ADV" Ltd</b>
                                 Support manager 2016—2020<br>
@@ -168,9 +166,7 @@
                                 Interactive" Ltd Part-time Support</p>
                         </section>
                         <section class="code-example">
-                            <h2 class="h2">
-                                <a name="code">Code Example</a>
-                            </h2>
+                            <h2 class="h2" id="code">Code Example</h2>
                             <code>let cart = [4884];<br>
                                 let id = 0;<br>
                                 function addToCart(id) {<br>
